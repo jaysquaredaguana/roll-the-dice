@@ -29,7 +29,7 @@ public class Dice {
         System.out.println("sevenCounter: " + sevenCounter);
     }
 
-    public static int roll() {
+    public int roll() {
         int maxValue = 6;
         int minValue = 1;
         return (int)(Math.random() * (maxValue - minValue + 1)) + minValue;
